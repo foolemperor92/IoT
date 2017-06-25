@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yongha.myapplication.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <Button
+        android:id="@+id/mqttOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="139dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginRight="86dp"
+        android:layout_toLeftOf="@+id/mqttOff"
+        android:layout_toStartOf="@+id/mqttOff"
+        android:layout_x="84dp"
+        android:layout_y="386dp"
+        android:text="Mqtton"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <Button
+        android:id="@+id/mqttOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/mqttOn"
+        android:layout_alignBottom="@+id/mqttOn"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="112dp"
+        android:layout_marginRight="112dp"
+        android:layout_x="212dp"
+        android:layout_y="387dp"
+        android:text="mqttOff" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="61dp"
+        android:layout_y="57dp"
+        app:srcCompat="@drawable/aaaa" />
+
+
+</AbsoluteLayout>
